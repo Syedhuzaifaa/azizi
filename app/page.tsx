@@ -167,7 +167,7 @@ export default function Home() {
             </div>
             <div>
               <img
-                src="/1.jpg"
+                src="/1.webp"
                 alt="Luxury poolside area with palm trees and Dubai skyline"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
