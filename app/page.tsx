@@ -11,7 +11,7 @@ import Script from "next/script"
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0)
-  const heroImages = ["/1.jpg", "/2.webp", "/3.jpg", "/4.jfif"]
+  const heroImages = ["/1.webp", "/2.webp", "/3.webp", "/4.webp"]
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -30,12 +30,13 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-white px-4 py-6 shadow-sm relative z-10">
+      <header className="bg-white px-4 py-2 shadow-sm relative z-10">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div>
-            <h1 className="text-gray-600 font-semibold text-gray-800 text-lg font-light tracking-wide">
+            <img src="/logo.png" alt="" width={140} />
+            {/* <h1 className="text-gray-600 font-semibold text-gray-800 text-lg font-light tracking-wide">
               LUX1TRINITY
-            </h1>
+            </h1> */}
           </div>
           <Button
             className="bg-teal-500 hover:bg-teal-600 text-white  px-8 py-2 text-xs font-medium"
@@ -304,16 +305,8 @@ export default function Home() {
     {/* Registration Form Section */ }
  <section id="contact-section" className="py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
-          <div>
-            <img
-              src="/dubai-curved-skyscraper-pool.png"
-              alt="David by Azizi Building"
-              className="w-full h-auto rounded-lg"
-            />
-          </div>
-          <div>
-            <h3 className="text-2xl font-light text-gray-800 mb-4">
+        <div className="text-center">
+           <h3 className="text-3xl  text-gray-800 mb-4">
               SECURE YOUR
               <br />
               DAVID BY AZIZI PROPERTY
@@ -322,6 +315,17 @@ export default function Home() {
               Fill in your details, and our team will contact you with exclusive opportunities in Azizi's latest
               developments.
             </p>
+        </div>
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div>
+            <img
+              src="/dubai-curved-skyscraper-pool.webp"
+              alt="David by Azizi Building"
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
+          <div>
+           
 
             {/* Paperform Embed */}
             <div data-paperform-id="ab4hmssc"></div>
