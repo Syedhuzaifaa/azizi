@@ -258,25 +258,29 @@ export default function Home() {
             pulse yet serenely apart. Where you rule the current, but flow is your own pace.
           </p>
 
-          <div className="grid md:grid-cols-3 divide-x divide-gray-600 mb-12">
-            <div className="text-center px-4">
+          <div className="grid md:grid-cols-3 gap-5 mb-12 
+                divide-y md:divide-y-0 md:divide-x divide-gray-600">
+            <div className="text-center px-4 py-4">
               <p className="text-sm text-gray-700 mb-2">10 MINUTES FROM</p>
               <p className="font-medium text-gray-800">Dubai Mall</p>
             </div>
-            <div className="text-center px-4">
+            <div className="text-center px-4 py-4">
               <p className="text-sm text-gray-700 mb-2">10~12 MINUTES FROM</p>
               <p className="font-medium text-gray-800">Dubai International Airport</p>
             </div>
-            <div className="text-center px-4">
+            <div className="text-center px-4 py-4">
               <p className="text-sm text-gray-700 mb-2">12 MINUTES FROM</p>
-              <p className="font-medium text-gray-800">Dubai International Financial Centre (DIFC)</p>
+              <p className="font-medium text-gray-800">
+                Dubai International Financial Centre (DIFC)
+              </p>
             </div>
           </div>
 
 
+
           <div className="bg-gray-200 h-84 rounded-lg mb-8 overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.5985629619863!2d55.32836457516425!3d25.216756977698342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d81ba7a1b95%3A0xb87b051ec93f7250!2sBEAUTYMORE!5e0!3m2!1sen!2s!4v1755454974386!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.6943597169216!2d55.3298056!3d25.213527799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d0009b0bca5%3A0xc342e1ddf7b27c6f!2sAzizi%20David!5e0!3m2!1sen!2s!4v1755496614358!5m2!1sen!2s"
               className="w-full h-full border-0"
               allowFullScreen=""
               loading="lazy"
@@ -365,10 +369,10 @@ export default function Home() {
           <div className="flex flex-col items-center space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8">
-               <img src="/logo2.png" alt="" width={40}  />
+                <img src="/logo2.png" alt="" width={40} />
               </div>
               <span className="text-sm font-medium text-gray-800">
-               <img src="/logo3.png" alt="" width={150}  />
+                <img src="/logo3.png" alt="" width={150} />
               </span>
             </div>
             <div className="flex space-x-6 text-xs text-gray-600">
